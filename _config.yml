@@ -2,7 +2,7 @@
 title               : Surya Pusapati
 description         : >-
                       Data Scientist | Mechanical Engineer
-baseurl             : "suryapusapati.com"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : suryapusapati/suryapusapati     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : true                            # Opens external URLs in new tab (works for posts, projects and navbar only)
