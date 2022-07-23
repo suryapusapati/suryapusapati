@@ -278,7 +278,7 @@ def geo(n, p):
 print(geo(p0, p))
 ```
 ### Day 5: Poisson Distribution I
-$${P(k, \lambda) = {{\lambda^k e^{-\lambda}}\over k!}}$$
+$${P(k, \lambda) = {\lambda^k e^{-\lambda}\over k!}}$$
 ```
 from math import exp
 
@@ -312,7 +312,7 @@ print(round(160 + (40*(X+X**2)), 3))
 print(round(128 + (40*(Y+Y**2)), 3))
 ```
 ### Day 5: Normal Distribution I
-$${P(X \leq x) = F_X(x) = {1\over2}\Big(1 + erf\Big({{x-\mu}\over{\sigma \sqrt2}}\Big)\Big)}$$
+$${P(X \leq x) = F_X(x) = {1\over2}\Big(1 + erf\Big({x-\mu\over{\sigma \sqrt2}}\Big)\Big)}$$
 
 $${P(a \leq X \leq b) = F_X(b) - F_X(a)}$$
 ```
@@ -369,7 +369,7 @@ $${\mu^\prime = n \times \mu}$$
 
 $${\sigma^\prime = \sqrt n \times \sigma}$$
 
-$${F_X(x, \mu^\prime, \sigma^\prime) =  {1\over2}\Big(1 + erf\Big({{x-\mu^\prime}\over{\sigma^\prime \sqrt2}}\Big)\Big)}$$
+$${F_X(x, \mu^\prime, \sigma^\prime) =  {1\over2}\Big(1 + erf\Big({x-\mu^\prime\over{\sigma^\prime \sqrt2}}\Big)\Big)}$$
 ```
 from math import sqrt, erf
 
@@ -393,7 +393,7 @@ $${\mu^\prime = n \times \mu}$$
 
 $${\sigma^\prime = \sqrt n \times \sigma}$$
 
-$${F_X(x, \mu^\prime, \sigma^\prime) =  {1\over2}\Big(1 + erf\Big({{x-\mu^\prime}\over{\sigma^\prime \sqrt2}}\Big)\Big)}$$
+$${F_X(x, \mu^\prime, \sigma^\prime) =  {1\over2}\Big(1 + erf\Big({x-\mu^\prime\over{\sigma^\prime \sqrt2}}\Big)\Big)}$$
 ```
 from math import sqrt, erf
 
@@ -429,7 +429,7 @@ print(round(mu - z*(std/(sample)**0.5), 2))
 print(round(mu + z*(std/(sample)**0.5), 2))
 ```
 ### Day 7: Pearson Correlation Coefficient I
-$${{\mu_X = {\sum_{i=1}^n x_{i}\over n} }, similarly\;\mu_Y}$$
+$${\mu_X = {\sum_{i=1}^n x_{i\over n} }, similarly\;\mu_Y}$$
 
 $${\sigma_X = \sqrt{\sum_{i=1}^n (x_i - \mu)^2\over n}, similarly\;\sigma_Y}$$
 
