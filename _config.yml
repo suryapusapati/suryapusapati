@@ -24,24 +24,24 @@ nav_exclude:                                            # The following paths ar
 author:
   name              : Surya Pusapati
   image             : /images/Linkedin_profile_pic_2022.jpg
-  behance           : your_username
+# behance           : your_username
 # dribbble          : your_username
   email             : itsme@suryapusapati.com
 # facebook          : your_username
   github            : suryapusapati
 # gitlab            : your_username
-# instagram         : your_username
-# kaggle            : your_username
-# linkedin          : your_username
-# medium            : your_username
+ instagram         : suryapusapati
+ kaggle            : surya39
+ linkedin          : suryanarayanaraju-pusapati-30517a15a
+ medium            : @suryapusapati
 # soundcloud        : your_username
 # spotify           : your_username
-# stackoverflow     : your_user_id
+ stackoverflow     : 18959493
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
 # twitter           : your_username
 # vimeo             : your_username
-# youtube           : your_channel_name
+ youtube           : UCJhMTQilHIWgVTcOCtCHmGQ
 # keybase           : your_username
 
 
