@@ -2,6 +2,10 @@
   percentage: 80
   color: #danger
 
+- name: C++
+  percentage: 50
+  color: #secondary
+
 - name: MatLab
   percentage: 70
   color: #secondary

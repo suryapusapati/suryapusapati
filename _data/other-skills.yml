@@ -1,3 +1,11 @@
+- name: DSLR Photography
+  percentage: 85
+  color: #info
+
+- name: Ardunio
+  percentage: 70
+  color: #info
+
 - name: Adobe Photoshop
   percentage: 80
   color: #info
