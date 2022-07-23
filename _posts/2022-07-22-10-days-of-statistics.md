@@ -431,7 +431,7 @@ print(round(mu + z*(std/(sample)**0.5), 2))
 ### Day 7: Pearson Correlation Coefficient I
 $${{\mu_X = { {\sum_{i=1}^n x_{i}}\over n} }, similarly\;\mu_Y}$$
 
-$${\sigma_X = \sqrt{{\sum_{i=1}^n (x_i - \mu)^2}\over n}, similarly\;\sigma_Y}$$
+$${\sigma_X = \sqrt{ { \sum_{i=1}^n (x_i - \mu)^2}\over n}, similarly\;\sigma_Y}$$
 
 $${\rho_{X,Y} = {{\Sigma(x_i-\mu_X)\cdot(y_i-\mu_Y)}\over{n\cdot \sigma_X\cdot \sigma_Y}}}$$
 ```
