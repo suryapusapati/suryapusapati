@@ -22,6 +22,7 @@ Challenge: [Hackerrank: 10 Days of Statistics](https://www.hackerrank.com/domain
 In this project I used python to solve basic statistics problems. All the problems are solved using basic math functions `from math import exp, sqrt, pi, erf`. Other type of questions in challenge such as multiple choice question are not included. This project only contains solutions of coding part. I have also added mathematical equation used in the problem. Happy learning!!
 
 ## Table of contects
+
 | Challenge | Challenge |
 |:----------|:----------|
 |[Day 0: Mean, Median, and Mode](#day-0-mean-median-and-mode)|[Day 5: Poisson Distribution II](#day-5-poisson-distribution-ii)|
