@@ -13,11 +13,19 @@
 - name: SQL
   percentage: 50
   color:
-
+  
+- name: Tableau
+  percentage: 40
+  color:
+  
 - name: Microsoft Excel
   percentage: 90
   color: #danger
-
+  
+- name: Microsoft Power BI
+  percentage: 40
+  color: #danger
+  
 - name: Jupyter Notebook/ Markdown
   percentage: 90
   color: #secondary
