@@ -1,4 +1,3 @@
-
 ---
 title: Hackerrank - 10 Days of Statistics
 tags: [Data Science, Statistics, Python, Scratch]
@@ -6,6 +5,7 @@ style: border
 color: primary
 description: Solutions of codeing questions in '10 days of statistics' solved using python.
 ---
+
 <br/>
 <div style='float: center; text-align: center; margin-bottom: 20px'>
   <a href='https://www.hackerrank.com/SuryaPusapati' target="_blank">
@@ -20,20 +20,19 @@ Source code: [GitHub](https://github.com/suryapusapati/10-Days-of-Statistics-by-
 Challenge: [Hackerrank: 10 Days of Statistics](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics)
 
 In this project I used python to solve basic statistics problems. All the problems are solved using basic math functions `from math import exp, sqrt, pi, erf`. Other type of questions in challenge such as multiple choice question are not included. This project only contains solutions of coding part. I have also added mathematical equation used in the problem. Happy learning!!
-
 ## Table of contact
 | Challenge | Challenge |
 |:----------|:----------|
-|[Day 0: Mean, Median, and Mode](Q01.py)|[Day 5: Poisson Distribution II](Q11.py)|
-|[Day 0: Weighted Mean](Q02.py)|[Day 5: Normal Distribution I](Q12.py)|
-|[Day 1: Quartiles](Q03.py)|[Day 5: Normal Distribution II](Q13.py)|
-|[Day 1: Interquartile Range](Q05.py)|[Day 6: The Central Limit Theorem I](Q14.py)|
-|[Day 1: Standard Deviation](Q04.py)|[Day 6: The Central Limit Theorem II](Q15.py)|
-|[Day 4: Binomial Distribution I](Q06.py)|[Day 6: The Central Limit Theorem III](Q16.py)|
-|[Day 4: Binomial Distribution II](Q07.py)|[Day 7: Pearson Correlation Coefficient I](Q17.py)|
-|[Day 4: Geometric Distribution I](Q08.py)|[Day 7: Spearman's Rank Correlation Coefficient](Q18.py)|
-|[Day 4: Geometric Distribution II](Q09.py)|[Day 8: Least Square Regression Line](Q19.py)|
-|[Day 5: Poisson Distribution I](Q10.py)|[Day 9: Multiple Linear Regression]()|
+|[Day 0: Mean, Median, and Mode](#day-0-mean-median-and-mode)|[Day 5: Poisson Distribution II](#day-5-poisson-distribution-ii)|
+|[Day 0: Weighted Mean](#day-0-weighted-mean)|[Day 5: Normal Distribution I](#day-5-normal-distribution-i)|
+|[Day 1: Quartiles](#day-1-quartiles)|[Day 5: Normal Distribution II](#day-5-normal-distribution-ii)|
+|[Day 1: Interquartile Range](#day-1-interquartile-range)|[Day 6: The Central Limit Theorem I](#day-6-the-central-limit-theorem-i)|
+|[Day 1: Standard Deviation](#day-1-standard-deviation)|[Day 6: The Central Limit Theorem II](#day-6-the-central-limit-theorem-ii)|
+|[Day 4: Binomial Distribution I](#day-4-binomial-distribution-i)|[Day 6: The Central Limit Theorem III](#day-6-the-central-limit-theorem-iii)|
+|[Day 4: Binomial Distribution II](#day-4-binomial-distribution-ii)|[Day 7: Pearson Correlation Coefficient I](#day-7-pearson-correlation-coefficient-i)|
+|[Day 4: Geometric Distribution I](#day-4-geometric-distribution-i)|[Day 7: Spearman's Rank Correlation Coefficient](#day-7-spearmans-rank-correlation-coefficient)|
+|[Day 4: Geometric Distribution II](#day-4-geometric-distribution-ii)|[Day 8: Least Square Regression Line](#day-8-least-square-regression-line)|
+|[Day 5: Poisson Distribution I](#day-5-poisson-distribution-i)|[Day 9: Multiple Linear Regression](#day-9-multiple-linear-regression)|
 
 ### Day 0: Mean, Median, and Mode
 $$ {mean= \mu = { {\sum_{i=1}^n x_{i}}\over n} }$$
@@ -413,7 +412,7 @@ std_ = sqrt(tic) * std
 print(round(norm(max_tic, mu_, std_), 4))
 ```
 ### Day 6: The Central Limit Theorem III
-$$\textrm{Confidence Interval} = \bar x \pm z {\sigma\over\sqrt n}$$
+$$Confidence\;Interval = \bar x \pm z {\sigma\over\sqrt n}$$
 ```
 # read inputs
 sample = int(input())
@@ -547,6 +546,8 @@ def liner(X, Y, x1):
 
 liner(X, Y, 80)
 ```
+### Day 8: Pearson Correlation Coefficient II
+*Working on a bug. Will be posted soon.*
 
 ### Day 9: Multiple Linear Regression
 *Working on a bug. Will be posted soon.*
