@@ -36,7 +36,7 @@ In this project I used python to solve basic statistics problems. All the proble
 |[Day 5: Poisson Distribution I](#day-5-poisson-distribution-i)|[Day 9: Multiple Linear Regression](#day-9-multiple-linear-regression)|
 
 ### Day 0: Mean, Median, and Mode
-$$ {mean= \mu = { {\Sigma_{i=1}^n x_{i}}\over n} }$$
+$$ {mean= \mu = { \sum_{i=1}^n x_{i}\over n} }$$
 
 $$\quad n = \textrm{number of values in data set}$$
 $$median = \left\{ 
@@ -83,7 +83,7 @@ if N == len(sample):
 	print(mode[0])
 ```
 ### Day 0: Weighted Mean
-$${\textrm{Weighted Mean} = m_w = { {\Sigma_{i=1}^n (x_i \times w_i)}\over {\Sigma_{i=1}^n w_i}} }$$
+$${\textrm{Weighted Mean} = m_w = {\sum_{i=1}^n (x_i \times w_i)\over \sum_{i=1}^n w_i}}$$
 ```
 def weightedMean(X, W):
 	global n
@@ -169,7 +169,7 @@ if __name__ == '__main__':
 	interQuartile(val, freq)
 ```
 ### Day 1: Standard Deviation
-$$\textrm{Standard Deviation} = \sigma = \sqrt{{\Sigma_{i=1}^n (x_i - \mu)^2}\over n}$$
+$$\textrm{Standard Deviation} = \sigma = \sqrt{\sum_{i=1}^n (x_i - \mu)^2\over n}$$
 ```
 def mean(arr):
 	global n
@@ -193,7 +193,7 @@ if __name__ == '__main__':
 ### Day 4: Binomial Distribution I
 $${b(x,n,p) ={n! \over x!(n-x)!} \cdot p^x \cdot q^{(n-x)} }$$
 
-$${b(x \geq r, n, p) = \Sigma_{i=r}^n b(x=i,n,p)}$$
+$${b(x \geq r, n, p) = \sum_{i=r}^n b(x=i,n,p)}$$
 ```
 p1, n = map(float, input().split())
 
@@ -218,7 +218,7 @@ def bino(x, n, p):
 print(round(sum([bino(i, n, gap) for i in range(x, n+1)]), 3))
 ```
 ### Day 4: Binomial Distribution II
-$${P(i < x \leq j)= b(i \leq x \leq j, n, p) = \Sigma_{i=r}^j b(x=i,n,p)}$$
+$${P(i < x \leq j)= b(i \leq x \leq j, n, p) = \sum_{i=r}^j b(x=i,n,p)}$$
 ```
 p, n = map(int, input().split())
 
@@ -265,7 +265,7 @@ def geo(n, p):
 print(geo(p0, p))
 ```
 ### Day 4: Geometric Distribution II
-$${P(x \leq j)= g(n \leq j, p) = \Sigma_{i=1}^j g(n=i,p)}$$
+$${P(x \leq j)= g(n \leq j, p) = \sum_{i=1}^j g(n=i,p)}$$
 ```
 p1, p2 = map(int, input().split())
 p0 = int(input())
@@ -429,11 +429,11 @@ print(round(mu - z*(std/(sample)**0.5), 2))
 print(round(mu + z*(std/(sample)**0.5), 2))
 ```
 ### Day 7: Pearson Correlation Coefficient I
-$${{\mu_X = { {\Sigma_{i=1}^n x_{i}}\over n} }, similarly\;\mu_Y}$$
+$${{\mu_X = {\sum_{i=1}^n x_{i}\over n} }, similarly\;\mu_Y}$$
 
-$${\sigma_X = \sqrt{ { \Sigma_{i=1}^n (x_i - \mu)^2}\over n}, similarly\;\sigma_Y}$$
+$${\sigma_X = \sqrt{\sum_{i=1}^n (x_i - \mu)^2\over n}, similarly\;\sigma_Y}$$
 
-$${\rho_{X,Y} = {{\Sigma(x_i-\mu_X)\cdot(y_i-\mu_Y)}\over{n\cdot \sigma_X\cdot \sigma_Y}}}$$
+$${\rho_{X,Y} = {\Sigma(x_i-\mu_X)\cdot(y_i-\mu_Y)\over{n\cdot \sigma_X\cdot \sigma_Y}}}$$
 ```
 # Read inputs 
 n = int(input())
@@ -476,7 +476,7 @@ $${N \textrm{: number of values in X or Y, }N_X = N_Y}$$
 
 $${1\leq r_x,r_y \leq N}$$
 
-$${r_{xy} = 1-{{6\Sigma(r_x - r_y)^2}\over{N(N^2-1)}}}$$
+$${r_{xy} = 1-{6\Sigma(r_x - r_y)^2\over{N(N^2-1)}}}$$
 ```
 # Read inputs
 n = int(input())
@@ -500,9 +500,9 @@ def corr(arr1, arr2):
 corr(X, Y)
 ```
 ### Day 8: Least Square Regression Line
-$${a = {{n\Sigma(x_iy_j)-(\Sigma x_i)(\Sigma y_j)}\over{n\Sigma(x^2_i)-\Sigma(x_i)^2}}}$$
+$${a = {n\Sigma(x_iy_j)-(\Sigma x_i)(\Sigma y_j)\over{n\Sigma(x^2_i)-\Sigma(x_i)^2}}}$$
 
-$${b = {{\Sigma(x_i-\mu_X)\cdot(y_i-\mu_Y)}\over{n\cdot \sigma_X^2}}}$$
+$${b = {\Sigma(x_i-\mu_X)\cdot(y_i-\mu_Y)\over{n\cdot \sigma_X^2}}}$$
 
 $${\hat{Y} = a + bX}$$
 ```
