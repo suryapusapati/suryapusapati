@@ -7,7 +7,7 @@
   color: secondary
 
 - name: SQL
-  percentage:50
+  percentage: 50
   color:
 
 - name: Microsoft Excel
