@@ -35,6 +35,7 @@ In this project I used python to solve basic statistics problems. All the proble
 |[Day 4: Geometric Distribution I](#day-4-geometric-distribution-i)|[Day 7: Spearman's Rank Correlation Coefficient](#day-7-spearmans-rank-correlation-coefficient)|
 |[Day 4: Geometric Distribution II](#day-4-geometric-distribution-ii)|[Day 8: Least Square Regression Line](#day-8-least-square-regression-line)|
 |[Day 5: Poisson Distribution I](#day-5-poisson-distribution-i)|[Day 9: Multiple Linear Regression](#day-9-multiple-linear-regression)|
+
 <br/><br/>
 
 ### Day 0: Mean, Median, and Mode
@@ -109,6 +110,8 @@ if __name__ == '__main__':
 	weights = list(map(int, input().rstrip().split()))
 	weightedMean(vals, weights)
 ```
+<br/><br/>
+
 ### Day 1: Quartiles
 
 $$\textrm{Lower Quartile} =Q_1 = median(X_{1}^{n/2})$$
