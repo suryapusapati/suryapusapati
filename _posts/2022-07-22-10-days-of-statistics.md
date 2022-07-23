@@ -22,6 +22,7 @@ Challenge: [Hackerrank: 10 Days of Statistics](https://www.hackerrank.com/domain
 In this project I used python to solve basic statistics problems. All the problems are solved using basic math functions `from math import exp, sqrt, pi, erf`. Other type of questions in challenge such as multiple choice question are not included. This project only contains solutions of coding part. I have also added mathematical equation used in the problem. Happy learning!!
 
 ## Table of contects
+
 | Challenge | Challenge |
 |:----------|:----------|
 |[Day 0: Mean, Median, and Mode](#day-0-mean-median-and-mode)|[Day 5: Poisson Distribution II](#day-5-poisson-distribution-ii)|
@@ -34,6 +35,7 @@ In this project I used python to solve basic statistics problems. All the proble
 |[Day 4: Geometric Distribution I](#day-4-geometric-distribution-i)|[Day 7: Spearman's Rank Correlation Coefficient](#day-7-spearmans-rank-correlation-coefficient)|
 |[Day 4: Geometric Distribution II](#day-4-geometric-distribution-ii)|[Day 8: Least Square Regression Line](#day-8-least-square-regression-line)|
 |[Day 5: Poisson Distribution I](#day-5-poisson-distribution-i)|[Day 9: Multiple Linear Regression](#day-9-multiple-linear-regression)|
+<br/><br/>
 
 ### Day 0: Mean, Median, and Mode
 
@@ -85,6 +87,8 @@ if N == len(sample):
 	print(round(median, 1))
 	print(mode[0])
 ```
+<br/><br/>
+
 ### Day 0: Weighted Mean
 
 $$\textrm{Weighted Mean} = m_w = {\sum_{i=1}^n (x_i \times w_i)\over \sum_{i=1}^n w_i}$$
@@ -147,6 +151,9 @@ if __name__ == '__main__':
 	fptr.write('\n')
 	fptr.close()
 ```
+<br/><br/>
+
+
 ### Day 1: Interquartile Range
 
 $$\textrm{Interquartile Range} = Q3 - Q1$$
@@ -177,6 +184,9 @@ if __name__ == '__main__':
 	freq = list(map(int, input().rstrip().split()))
 	interQuartile(val, freq)
 ```
+<br/><br/>
+
+
 ### Day 1: Standard Deviation
 
 $$\textrm{Standard Deviation} = \sigma = \sqrt{\sum_{i=1}^n (x_i - \mu)^2\over n}$$
@@ -201,6 +211,9 @@ if __name__ == '__main__':
 	vals = list(map(int, input().rstrip().split()))
 	stdDev(vals)
 ```
+<br/><br/>
+
+
 ### Day 4: Binomial Distribution I
 
 $$b(x,n,p) ={n! \over x!(n-x)!} \cdot p^x \cdot q^{(n-x)}$$
@@ -230,6 +243,9 @@ def bino(x, n, p):
 
 print(round(sum([bino(i, n, gap) for i in range(x, n+1)]), 3))
 ```
+<br/><br/>
+
+
 ### Day 4: Binomial Distribution II
 
 $$P(i < x \leq j)= b(i \leq x \leq j, n, p) = \sum_{i=r}^j b(x=i,n,p)$$
@@ -264,6 +280,9 @@ prob(0, 2)
 # at least 2 rejects
 prob(2, n)
 ```
+<br/><br/>
+
+
 ### Day 4: Geometric Distribution I
 
 $$g(n,p) = q^{n-1} \cdot p$$
@@ -281,6 +300,9 @@ def geo(n, p):
 
 print(geo(p0, p))
 ```
+<br/><br/>
+
+
 ### Day 4: Geometric Distribution II
 
 $$P(x \leq j)= g(n \leq j, p) = \sum_{i=1}^j g(n=i,p)$$
@@ -296,6 +318,9 @@ def geo(n, p):
 
 print(geo(p0, p))
 ```
+<br/><br/>
+
+
 ### Day 5: Poisson Distribution I
 
 $$P(k, \lambda) = {\lambda^k e^{-\lambda}\over k!}$$
@@ -320,6 +345,9 @@ def pois(X, mean):
 
 print(pois(X, mean))
 ```
+<br/><br/>
+
+
 ### Day 5: Poisson Distribution II
 
 $$E[X^2] = \lambda + \lambda^2$$
@@ -333,6 +361,9 @@ print(round(160 + (40*(X+X**2)), 3))
 #def C_B(Y):
 print(round(128 + (40*(Y+Y**2)), 3))
 ```
+<br/><br/>
+
+
 ### Day 5: Normal Distribution I
 
 $$P(X \leq x) = F_X(x) = {1\over2}\Big(1 + erf\Big({x-\mu\over{\sigma \sqrt2}}\Big)\Big)$$
@@ -364,6 +395,9 @@ print(round(norm(X1, mean, std), 3))
 # Q02
 print(round((norm(X3, mean, std) - norm(X2, mean, std)), 3))
 ```
+<br/><br/>
+
+
 ### Day 5: Normal Distribution II
 
 $$P(X \leq x) = F_X(x)$$
@@ -390,6 +424,9 @@ print(round(100 - norm(X2, mu, std), 2))
 # X < X2
 print(round(norm(X2, mu, std), 2))
 ```
+<br/><br/>
+
+
 ### Day 6: The Central Limit Theorem I
 
 $$\mu^\prime = n \times \mu$$
@@ -416,6 +453,9 @@ std_ = sqrt(box)*std
 
 print(round(norm(max_, mu_, std_), 4))
 ```
+<br/><br/>
+
+
 ### Day 6: The Central Limit Theorem II
 
 $$\mu^\prime = n \times \mu$$
@@ -442,6 +482,9 @@ std_ = sqrt(tic) * std
 
 print(round(norm(max_tic, mu_, std_), 4))
 ```
+<br/><br/>
+
+
 ### Day 6: The Central Limit Theorem III
 
 $$\textrm{Confidence Interval} = \bar x \pm z {\sigma\over\sqrt n}$$
@@ -460,6 +503,9 @@ print(round(mu - z*(std/(sample)**0.5), 2))
 # higher limit
 print(round(mu + z*(std/(sample)**0.5), 2))
 ```
+<br/><br/>
+
+
 ### Day 7: Pearson Correlation Coefficient I
 
 $$\mu_X = {\sum_{i=1}^n x_{i\over n} }, similarly\;\mu_Y$$
@@ -501,6 +547,9 @@ def corr(arr1, arr2):
 
 corr(X, Y)
 ```
+<br/><br/>
+
+
 ### Day 7: Spearman's Rank Correlation Coefficient
 
 $$r_x \textrm{: rank of X values in descending order}$$
@@ -535,6 +584,9 @@ def corr(arr1, arr2):
 
 corr(X, Y)
 ```
+<br/><br/>
+
+
 ### Day 8: Least Square Regression Line
 
 $$a = {n\Sigma(x_iy_j)-(\Sigma x_i)(\Sigma y_j)\over{n\Sigma(x^2_i)-\Sigma(x_i)^2}}$$
@@ -583,9 +635,11 @@ def liner(X, Y, x1):
 
 liner(X, Y, 80)
 ```
+<br/><br/>
 
 ### Day 9: Multiple Linear Regression
 *Working on a bug. Will be posted soon.*
+<br/><br/>
 
 ---
 Is this blog useful? If you encounter any error fell free to report your [issue](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/issues) in GitHub. 
