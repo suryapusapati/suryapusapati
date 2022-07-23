@@ -1,3 +1,4 @@
+
 ---
 title: Hackerrank - 10 Days of Statistics
 tags: [Data Science, Statistics, Python, Scratch]
@@ -18,23 +19,53 @@ Source code: [GitHub](https://github.com/suryapusapati/10-Days-of-Statistics-by-
 
 Challenge: [Hackerrank: 10 Days of Statistics](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics)
 
-In this project I used python to solve basic statistics problems. I have not imported any python packages to solve any problems except for essentail math functions `from math import exp, sqrt, pi, erf`. Other type of questions in challenge such as multiple choice question are not included. This project only contins solutions for coding part. Happy learning!!
+In this project I used python to solve basic statistics problems. All the problems are solved using basic math functions `from math import exp, sqrt, pi, erf`. Other type of questions in challenge such as multiple choice question are not included. This project only contains solutions of coding part. I have also added mathematical equation used in the problem. Happy learning!!
+
+## Table of contact
+| Challenge | Challenge |
+|:----------|:----------|
+|[Day 0: Mean, Median, and Mode](Q01.py)|[Day 5: Poisson Distribution II](Q11.py)|
+|[Day 0: Weighted Mean](Q02.py)|[Day 5: Normal Distribution I](Q12.py)|
+|[Day 1: Quartiles](Q03.py)|[Day 5: Normal Distribution II](Q13.py)|
+|[Day 1: Interquartile Range](Q05.py)|[Day 6: The Central Limit Theorem I](Q14.py)|
+|[Day 1: Standard Deviation](Q04.py)|[Day 6: The Central Limit Theorem II](Q15.py)|
+|[Day 4: Binomial Distribution I](Q06.py)|[Day 6: The Central Limit Theorem III](Q16.py)|
+|[Day 4: Binomial Distribution II](Q07.py)|[Day 7: Pearson Correlation Coefficient I](Q17.py)|
+|[Day 4: Geometric Distribution I](Q08.py)|[Day 7: Spearman's Rank Correlation Coefficient](Q18.py)|
+|[Day 4: Geometric Distribution II](Q09.py)|[Day 8: Least Square Regression Line](Q19.py)|
+|[Day 5: Poisson Distribution I](Q10.py)|[Day 9: Multiple Linear Regression]()|
 
 ### Day 0: Mean, Median, and Mode
+$$ {mean= \mu = { {\sum_{i=1}^n x_{i}}\over n} }$$
+
+$$\quad n = \textrm{number of values in data set}$$
+$$median = \left\{ 
+  \begin{array}{ c l }
+    X[\frac{n}{2}] & \quad \textrm{if n is even}\\
+    {(X[\frac{n-1}{2}] + X[\frac{n+1}{2}])\over 2}& \quad \textrm{if n is odd}
+  \end{array}
+\right.$$
+
+$${X = \textrm{ordered list of values in data set}}$$
+$${mode = \textrm{a number that appears most frequently in a data set}}$$
+
 ```
 N = int(input())
 sample = sorted(list(map(float, input().strip().split())))
 if N == len(sample):
+	
 	# mean
 	sum_ = 0
 	for i in sample:
 		sum_ += i
 	mean = sum_/N
+	
 	# median
 	if N%2 == 0:
 		median = (sample[int(N/2-0.5)] + sample[int(N/2+0.5)])/2
 	else:
 		median = sample[int(N/2+0.5)]
+	
 	# mode
 	mode = []
 	count = {}
@@ -52,6 +83,7 @@ if N == len(sample):
 	print(mode[0])
 ```
 ### Day 0: Weighted Mean
+$${\textrm{Weighted Mean} = m_w = { {\sum_{i=1}^n (x_i \times w_i)}\over {\sum_{i=1}^n w_i}} }$$
 ```
 def weightedMean(X, W):
 	global n
@@ -69,6 +101,15 @@ if __name__ == '__main__':
 	weightedMean(vals, weights)
 ```
 ### Day 1: Quartiles
+$${ \textrm{Lower Quartile} =Q_1 = median(X_{1}^{n/2})}$$
+
+$${ \textrm{Middle Quartile} =Q_2 = median(X_{1}^{n})}$$
+
+$${ \textrm{Upper Quartile} =Q_3 = median(X_{n/2}^{n})}$$
+
+$$X = \textrm{ordered list of values in data set}\\
+X_i^j  = \textrm{range of X values in between i and j}\\
+whereas\; i < j,\; 1 \leq i \leq n,\; 1 \leq j \leq n$$
 ```
 import os
 
@@ -99,28 +140,8 @@ if __name__ == '__main__':
 	fptr.write('\n')
 	fptr.close()
 ```
-### Day 1: Standard Deviation
-```
-def mean(arr):
-	global n
-	sum_ = 0
-	for i in range(n):
-		sum_ += arr[i]
-	return n, sum_/n
-
-def stdDev(arr):
-	n, mean_ = mean(arr)
-	std = 0
-	for i in range(n):
-		std += ((mean_ - arr[i])**2)
-	print((std/n)**0.5)
-
-if __name__ == '__main__':
-	n = int(input().strip())
-	vals = list(map(int, input().rstrip().split()))
-	stdDev(vals)
-```
 ### Day 1: Interquartile Range
+$$Interquartile\;Range = Q3 - Q1$$
 ```
 def median(arr):
 	N = len(arr)
@@ -147,7 +168,32 @@ if __name__ == '__main__':
 	freq = list(map(int, input().rstrip().split()))
 	interQuartile(val, freq)
 ```
+### Day 1: Standard Deviation
+$$Standard\;Deviation = \sigma = \sqrt{{\sum_{i=1}^n (x_i - \mu)^2}\over n}$$
+```
+def mean(arr):
+	global n
+	sum_ = 0
+	for i in range(n):
+		sum_ += arr[i]
+	return n, sum_/n
+
+def stdDev(arr):
+	n, mean_ = mean(arr)
+	std = 0
+	for i in range(n):
+		std += ((mean_ - arr[i])**2)
+	print((std/n)**0.5)
+
+if __name__ == '__main__':
+	n = int(input().strip())
+	vals = list(map(int, input().rstrip().split()))
+	stdDev(vals)
+```
 ### Day 4: Binomial Distribution I
+$${b(x,n,p) ={n! \over x!(n-x)!} \cdot p^x \cdot q^{(n-x)} }$$
+
+$${b(x \geq r, n, p) = \sum_{i=r}^n b(x=i,n,p)}$$
 ```
 p1, n = map(float, input().split())
 
@@ -172,6 +218,7 @@ def bino(x, n, p):
 print(round(sum([bino(i, n, gap) for i in range(x, n+1)]), 3))
 ```
 ### Day 4: Binomial Distribution II
+$${P(i < x \leq j)= b(i \leq x \leq j, n, p) = \sum_{i=r}^j b(x=i,n,p)}$$
 ```
 p, n = map(int, input().split())
 
@@ -203,6 +250,9 @@ prob(0, 2)
 prob(2, n)
 ```
 ### Day 4: Geometric Distribution I
+$$g(n,p) = q^{n-1} \cdot p$$
+
+$$ \\ whereas,\;q = 1-p$$
 ```
 p1, p2 = map(int, input().split())
 p0 = int(input())
@@ -215,6 +265,7 @@ def geo(n, p):
 print(geo(p0, p))
 ```
 ### Day 4: Geometric Distribution II
+$${P(x \leq j)= g(n \leq j, p) = \sum_{i=1}^j g(n=i,p)}$$
 ```
 p1, p2 = map(int, input().split())
 p0 = int(input())
@@ -222,11 +273,12 @@ p0 = int(input())
 p = p1/p2
 
 def geo(n, p):
-    return round(sum([(p*((1-p)**(i-1))) for i in range(1, p0+1)]), 3)
+    return round(sum([(p*((1-p)**(i-1))) for i in range(1, n+1)]), 3)
 
 print(geo(p0, p))
 ```
 ### Day 5: Poisson Distribution I
+$$P(k, \lambda) = {{\lambda^k e^{-\lambda}}\over k!}$$
 ```
 from math import exp
 
@@ -248,6 +300,8 @@ def pois(X, mean):
 print(pois(X, mean))
 ```
 ### Day 5: Poisson Distribution II
+
+$$E[X^2] = \lambda + \lambda^2$$
 ```
 X, Y = map(float, input().split())
 
@@ -258,6 +312,9 @@ print(round(160 + (40*(X+X**2)), 3))
 print(round(128 + (40*(Y+Y**2)), 3))
 ```
 ### Day 5: Normal Distribution I
+$$P(X \leq x) = F_X(x) = {1\over2}\Big(1 + erf\Big({{x-\mu}\over{\sigma \sqrt2}}\Big)\Big) $$
+
+$$P(a \leq X \leq b) = F_X(b) - F_X(a)$$
 ```
 from math import exp, sqrt, pi, erf
 
@@ -284,6 +341,9 @@ print(round(norm(X1, mean, std), 3))
 print(round((norm(X3, mean, std) - norm(X2, mean, std)), 3))
 ```
 ### Day 5: Normal Distribution II
+$$P(X \leq x) = F_X(x)$$
+
+$$P(X > x) = 1 - P(X \leq x)= 1 - F_X(x)$$
 ```
 from math import sqrt, erf
 
@@ -305,6 +365,11 @@ print(round(100 - norm(X2, mu, std), 2))
 print(round(norm(X2, mu, std), 2))
 ```
 ### Day 6: The Central Limit Theorem I
+$$\mu^\prime = n \times \mu$$
+
+$$\sigma^\prime = \sqrt n \times \sigma$$
+
+$$F_X(x, \mu^\prime, \sigma^\prime) =  {1\over2}\Big(1 + erf\Big({{x-\mu^\prime}\over{\sigma^\prime \sqrt2}}\Big)\Big)$$
 ```
 from math import sqrt, erf
 
@@ -324,6 +389,11 @@ std_ = sqrt(box)*std
 print(round(norm(max_, mu_, std_), 4))
 ```
 ### Day 6: The Central Limit Theorem II
+$$\mu^\prime = n \times \mu$$
+
+$$\sigma^\prime = \sqrt n \times \sigma$$
+
+$$F_X(x, \mu^\prime, \sigma^\prime) =  {1\over2}\Big(1 + erf\Big({{x-\mu^\prime}\over{\sigma^\prime \sqrt2}}\Big)\Big)$$
 ```
 from math import sqrt, erf
 
@@ -340,12 +410,11 @@ def norm(x, mean, std):
 mu_ = tic * mu
 std_ = sqrt(tic) * std
 
-print(round(norm(250, mu_, std_), 4))
+print(round(norm(max_tic, mu_, std_), 4))
 ```
 ### Day 6: The Central Limit Theorem III
+$$\textrm{Confidence Interval} = \bar x \pm z {\sigma\over\sqrt n}$$
 ```
-from math import sqrt
-
 # read inputs
 sample = int(input())
 mu = int(input())
@@ -354,12 +423,17 @@ inte = float(input())
 z = float(input())
 
 # lower limit
-print(round(mu - z*(std/sqrt(sample)), 2))
+print(round(mu - z*(std/(sample)**0.5), 2))
 
 # higher limit
-print(round(mu + z*(std/sqrt(sample)), 2))
+print(round(mu + z*(std/(sample)**0.5), 2))
 ```
 ### Day 7: Pearson Correlation Coefficient I
+$$ {\mu_X = { {\sum_{i=1}^n x_{i}}\over n} }, similary\;\mu_Y$$
+
+$$\sigma_X = \sqrt{{\sum_{i=1}^n (x_i - \mu)^2}\over n}, similary\;\sigma_Y$$
+
+$$\rho_{X,Y} = {{\Sigma(x_i-\mu_X)\cdot(y_i-\mu_Y)}\over{n\cdot \sigma_X\cdot \sigma_Y}}$$
 ```
 # Read inputs 
 n = int(input())
@@ -394,6 +468,15 @@ def corr(arr1, arr2):
 corr(X, Y)
 ```
 ### Day 7: Spearman's Rank Correlation Coefficient
+$$r_x \textrm{: rank of X values in descending order}$$
+
+$$r_y \textrm{: rank of Y values in descending order}$$
+
+$$N \textrm{: number of values in X or Y, }N_X = N_Y$$
+
+$$1\leq r_x,r_y \leq N$$
+
+$$r_{xy} = 1-{{6\Sigma(r_x - r_y)^2}\over{N(N^2-1)}}$$
 ```
 # Read inputs
 n = int(input())
@@ -417,6 +500,13 @@ def corr(arr1, arr2):
 corr(X, Y)
 ```
 ### Day 8: Least Square Regression Line
+$$a = {{n\Sigma(x_iy_j)-(\Sigma x_i)(\Sigma y_j)}\over{n\Sigma(x^2_i)-\Sigma(x_i)^2}}$$
+
+
+
+$$b = {{\Sigma(x_i-\mu_X)\cdot(y_i-\mu_Y)}\over{n\cdot \sigma_X^2}}$$
+
+$$\hat{Y} = a + bX$$
 ```
 # Read inputs into array
 n = 5
@@ -457,13 +547,11 @@ def liner(X, Y, x1):
 
 liner(X, Y, 80)
 ```
-### Day 8: Pearson Correlation Coefficient II
-*Working on a bug. Will be posted soon.*
 
 ### Day 9: Multiple Linear Regression
 *Working on a bug. Will be posted soon.*
 
 
-I hope you this project is useful. If you encounter any error. Report your [issue](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/issues) in GitHub.
+I hope you find this blog useful. If you encounter any error fell free to report your [issue](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/issues) in GitHub. 
 
 Ⓒ 2022 Surya Pusapati
