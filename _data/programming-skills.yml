@@ -1,10 +1,10 @@
 - name: Python
   percentage: 80
-  color: danger
+  color: #danger
 
 - name: MatLab
   percentage: 70
-  color: secondary
+  color: #secondary
 
 - name: SQL
   percentage: 50
@@ -12,16 +12,16 @@
 
 - name: Microsoft Excel
   percentage: 90
-  color: danger
-
-- name: AutoCAD
-  percentage: 70
-  color: grey
+  color: #danger
 
 - name: Jupyter Notebook/ Markdown
   percentage: 90
-  color: secondary
+  color: #secondary
+
+- name: AutoCAD
+  percentage: 70
+  color:
 
 - name: OMNeT++
   percentage: 80
-  color: danger
+  color: #danger
