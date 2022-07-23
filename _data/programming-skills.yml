@@ -1,11 +1,27 @@
-- name: HTML5/CSS3
+- name: Python
+  percentage: 80
+  color: danger
+
+- name: MatLab
+  percentage: 70
+  color: secondary
+
+- name: SQL
+  percentage:50
+  color:
+
+- name: Microsoft Excel
   percentage: 90
   color: danger
 
-- name: Go
-  percentage: 80
-  color:
-
-- name: Python
+- name: AutoCAD
   percentage: 70
+  color: grey
+
+- name: Jupyter Notebook/ Markdown
+  percentage: 90
   color: secondary
+
+- name: OMNeT++
+  percentage: 80
+  color: danger
