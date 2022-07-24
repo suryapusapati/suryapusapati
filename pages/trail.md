@@ -5,5 +5,6 @@ permalink: /trail/
 weight: 4
 ---
 
-{% include trail/search.html %}
-{% include trail/index.html %}
+# Welcome to Trail!!
+
+How is this??
