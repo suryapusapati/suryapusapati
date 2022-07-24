@@ -1,4 +1,11 @@
-## this is a trail
+---
+layout: page
+title: Trail
+permalink: /blog/trail/
+weight: 4
+---
+
+# this is a trail
 
 Hi, can you see.
 
