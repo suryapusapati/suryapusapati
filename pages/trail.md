@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Trail
-permalink: /blog/trail/
+permalink: /trail/
 weight: 4
 ---
 
