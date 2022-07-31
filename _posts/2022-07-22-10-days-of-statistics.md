@@ -55,7 +55,7 @@ $$X = \textrm{ordered list of values in data set}$$
 
 $$mode = \textrm{a number that appears most frequently in a data set}$$
 
-```
+```python
 N = int(input())
 sample = sorted(list(map(float, input().strip().split())))
 if N == len(sample):
@@ -94,7 +94,7 @@ if N == len(sample):
 
 $$\textrm{Weighted Mean} = m_w = {\sum_{i=1}^n (x_i \times w_i)\over \sum_{i=1}^n w_i}$$
 
-```
+```python
 def weightedMean(X, W):
 	global n
 	XW_sum = 0
@@ -124,7 +124,7 @@ $$X = \textrm{ordered list of values in data set}\\
 X_i^j  = \textrm{range of X values in between i and j}\\
 whereas\; i < j,\; 1 \leq i \leq n,\; 1 \leq j \leq n$$
 
-```
+```python
 import os
 
 def medium(arr):
@@ -161,7 +161,7 @@ if __name__ == '__main__':
 
 $$\textrm{Interquartile Range} = Q3 - Q1$$
 
-```
+```python
 def median(arr):
 	N = len(arr)
 	if N%2==0:
@@ -194,7 +194,7 @@ if __name__ == '__main__':
 
 $$\textrm{Standard Deviation} = \sigma = \sqrt{\sum_{i=1}^n (x_i - \mu)^2\over n}$$
 
-```
+```python
 def mean(arr):
 	global n
 	sum_ = 0
@@ -223,7 +223,7 @@ $$b(x,n,p) ={n! \over x!(n-x)!} \cdot p^x \cdot q^{(n-x)}$$
 
 $$b(x \geq r, n, p) = \sum_{i=r}^n b(x=i,n,p)$$
 
-```
+```python
 p1, n = map(float, input().split())
 
 # p for boys
@@ -253,7 +253,7 @@ print(round(sum([bino(i, n, gap) for i in range(x, n+1)]), 3))
 
 $$P(i < x \leq j)= b(i \leq x \leq j, n, p) = \sum_{i=r}^j b(x=i,n,p)$$
 
-```
+```python
 p, n = map(int, input().split())
 
 p /= 100
@@ -292,7 +292,7 @@ $$g(n,p) = q^{n-1} \cdot p$$
 
 $$whereas,\;q = 1-p$$
 
-```
+```python
 p1, p2 = map(int, input().split())
 p0 = int(input())
 
@@ -310,7 +310,7 @@ print(geo(p0, p))
 
 $$P(x \leq j)= g(n \leq j, p) = \sum_{i=1}^j g(n=i,p)$$
 
-```
+```python
 p1, p2 = map(int, input().split())
 p0 = int(input())
 
@@ -328,7 +328,7 @@ print(geo(p0, p))
 
 $$P(k, \lambda) = {\lambda^k e^{-\lambda}\over k!}$$
 
-```
+```python
 from math import exp
 
 mean = float(input())
@@ -355,7 +355,7 @@ print(pois(X, mean))
 
 $$E[X^2] = \lambda + \lambda^2$$
 
-```
+```python
 X, Y = map(float, input().split())
 
 #def C_A(X):
@@ -373,7 +373,7 @@ $$P(X \leq x) = F_X(x) = {1\over2}\Big(1 + erf\Big({x-\mu\over{\sigma \sqrt2}}\B
 
 $$P(a \leq X \leq b) = F_X(b) - F_X(a)$$
 
-```
+```python
 from math import exp, sqrt, pi, erf
 
 # read input
@@ -407,7 +407,7 @@ $$P(X \leq x) = F_X(x)$$
 
 $$P(X > x) = 1 - P(X \leq x)= 1 - F_X(x)$$
 
-```
+```python
 from math import sqrt, erf
 
 mu, std = map(float, input().split())
@@ -438,7 +438,7 @@ $$\sigma^\prime = \sqrt n \times \sigma$$
 
 $$F_X(x, \mu^\prime, \sigma^\prime) =  {1\over2}\Big(1 + erf\Big({x-\mu^\prime\over{\sigma^\prime \sqrt2}}\Big)\Big)$$
 
-```
+```python
 from math import sqrt, erf
 
 # read inputs
@@ -467,7 +467,7 @@ $$\sigma^\prime = \sqrt n \times \sigma$$
 
 $$F_X(x, \mu^\prime, \sigma^\prime) =  {1\over2}\Big(1 + erf\Big({x-\mu^\prime\over{\sigma^\prime \sqrt2}}\Big)\Big)$$
 
-```
+```python
 from math import sqrt, erf
 
 # read all inputs
@@ -492,7 +492,7 @@ print(round(norm(max_tic, mu_, std_), 4))
 
 $$\textrm{Confidence Interval} = \bar x \pm z {\sigma\over\sqrt n}$$
 
-```
+```python
 # read inputs
 sample = int(input())
 mu = int(input())
@@ -517,7 +517,7 @@ $$\sigma_X = \sqrt{\sum_{i=1}^n (x_i - \mu)^2\over n}, similarly\;\sigma_Y$$
 
 $$\rho_{X,Y} = {\Sigma(x_i-\mu_X)\cdot(y_i-\mu_Y)\over{n\cdot \sigma_X\cdot \sigma_Y}}$$
 
-```
+```python
 # Read inputs 
 n = int(input())
 X = list(map(float, input().split()))
@@ -565,7 +565,7 @@ $$1\leq r_x,r_y \leq N$$
 
 $$r_{xy} = 1-{6\Sigma(r_x - r_y)^2\over{N(N^2-1)}}$$
 
-```
+```python
 # Read inputs
 n = int(input())
 X = list(map(float, input().split()))
@@ -598,7 +598,7 @@ $$b = {\Sigma(x_i-\mu_X)\cdot(y_i-\mu_Y)\over{n\cdot \sigma_X^2}}$$
 
 $$\hat{Y} = a + bX$$
 
-```
+```python
 # Read inputs into array
 n = 5
 X, Y = list(), list()
@@ -645,6 +645,6 @@ liner(X, Y, 80)
 <br/><br/>
 
 ---
-Is this blog useful? If you encounter any error fell free to report your [issue](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/issues) in GitHub. 
+If you encounter any error fell free to report your [issue](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/issues) in GitHub. 
 
 Ⓒ 2022 Surya Pusapati

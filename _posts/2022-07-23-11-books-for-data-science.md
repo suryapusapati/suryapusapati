@@ -3,7 +3,6 @@ title: 11 books to make your Data Science foundtions stronger
 tags: [Data Science, book]
 style: fill
 color: secondary
-comments: true
 description: URLs to books metioned in medium blog.
 ---
 
