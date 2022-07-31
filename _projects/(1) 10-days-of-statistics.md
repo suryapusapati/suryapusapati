@@ -1,18 +1,9 @@
 ---
-title: Hackerrank - 10 Days of Statistics
-tags: [Data Science, Statistics, Python, Scratch]
-style: border
-color: primary
+name: Hackerrank - 10 Days of Statistics
+tools: [Data Science, Statistics, Python, Scratch]
+image: https://www.hackerrank.com/wp-content/uploads/2018/08/hackerrank_logo.png
 description: Solutions of codeing questions in '10 days of statistics' solved using python.
 ---
-
-<br/>
-<div style='float: center; text-align: center; margin-bottom: 20px'>
-  <a href='https://www.hackerrank.com/SuryaPusapati' target="_blank">
-  <img width="300px" src="https://www.hackerrank.com/wp-content/uploads/2018/08/hackerrank_logo.png" />
-  </a>
-</div>
-<br/>
 
 <p class="text-center">
 {% include elements/button.html link="https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank" text="GitHub" %}
@@ -645,6 +636,6 @@ liner(X, Y, 80)
 <br/><br/>
 
 ---
-If you encounter any error fell free to report your [issue](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/issues) in GitHub. 
+If you encounter any error, feel free to post your [issue](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/issues) in GitHub. 
 
 Ⓒ 2022 Surya Pusapati
