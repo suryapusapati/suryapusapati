@@ -1,15 +1,14 @@
 ---
-name: Hackerrank - 10 Days of Statistics
-tools: [Data Science, Statistics, Python, Scratch]
-image: https://www.hackerrank.com/wp-content/uploads/2018/08/hackerrank_logo.png
-comment: true
-description: Solutions of codeing questions in '10 days of statistics' solved using python.
+title: Hackerrank - 10 Days of Statistics
+tags: [Data Science, Statistics, Python, Scratch]
+style: border
+color: primary
+description: Solutions of coding questions in Hackerrank challenge solved using python.
 ---
-# [Hackerrank - 10 Days of Statistics](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics)
 
 <p class="text-center">
 {% include elements/button.html link="https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank" text="GitHub" %}
-{% include elements/button.html link="https://www.hackerrank.com/SuryaPusapati" text="HackerRank" %}
+{% include elements/button.html link="https://www.hackerrank.com/domains/tutorials/10-days-of-statistics" text="HackerRank" %}
 </p>
 
 In this project I used python to solve basic statistics problems. All the problems are solved using basic math functions `from math import exp, sqrt, pi, erf`. Other type of questions in challenge such as multiple choice question are not included. This project only contains solutions of coding part. I have also added mathematical equation used in the problem. Happy learning!!
