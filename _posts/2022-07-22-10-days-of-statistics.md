@@ -15,9 +15,8 @@ description: Solutions of codeing questions in '10 days of statistics' solved us
 <br/>
 
 ## Hackerrank: 10 Days of Statistics
-Source code: [GitHub](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank)
-
-Challenge: [Hackerrank: 10 Days of Statistics](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics)
+{% include elements/button.html link="https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank" text="GitHub" %}
+{% include elements/button.html link="https://www.hackerrank.com/domains/tutorials/10-days-of-statistics" text="HackerRank" style="primary" %}
 
 In this project I used python to solve basic statistics problems. All the problems are solved using basic math functions `from math import exp, sqrt, pi, erf`. Other type of questions in challenge such as multiple choice question are not included. This project only contains solutions of coding part. I have also added mathematical equation used in the problem. Happy learning!!
 
