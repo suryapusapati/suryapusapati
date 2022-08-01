@@ -17,12 +17,36 @@ I am a data-driven engineer, which means I solve real-world problems using Stati
 
 ## Experience
 <div class="row">
-{% include about/exp_timeline.html %}
+<div class="col mt-4">
+  <div class="timeline-body bg-themed">
+    {% for item in site.data.exp_timeline %}
+      <div class="timeline-item">
+        <div class="content">
+          <h2>{{ item.title }}</h2>
+          <h6 class="date">{{ item.from }} — {{ item.to }}</h6>
+          <p>{{ item.description }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
 </div>
 
 ## Education
 <div class="row">
-{% include about/edu_timeline.html %}
+<div class="col mt-4">
+  <div class="timeline-body bg-themed">
+    {% for item in site.data.edu_timeline %}
+      <div class="timeline-item">
+        <div class="content">
+          <h2>{{ item.title }}</h2>
+          <h6 class="date">{{ item.from }} — {{ item.to }}</h6>
+          <p>{{ item.description }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
 </div>
 
 ## Achievements
