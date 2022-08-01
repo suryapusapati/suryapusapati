@@ -94,7 +94,7 @@ defaults:
       comments: true
   - scope:
       path: ""
-      type: "travel"
+      type: "travels"
     values:
       layout: "page"
 
