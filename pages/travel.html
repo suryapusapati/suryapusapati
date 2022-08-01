@@ -5,8 +5,21 @@ weight: 5
 permalink: /travel/
 ---
 
-{% include elements/video.html id="j5d-qfX5OPw" %}
+{% for project in site.travel %} 
+  
+{%- assign project_type  = "local" -%} 
+{%- assign project_id    = project.name | slugify -%} 
+{%- assign project_img   = project.image -%} 
+{%- assign project_name  = project.name -%} 
+{%- assign project_desc  = project.description -%} 
+{%- assign project_tools = project.tools -%} 
 
-{% include elements/video.html id="9KvAmZfQuHU" %}
+{%- if project.external_url -%} 
+  {%- assign project_url = project.external_url -%} 
+{%- else -%} 
+  {%- assign project_url = project.url | relative_url -%} 
+{%- endif -%} 
 
-{% include elements/video.html id="FAUVtGkH8vE" %}
+{% include projects/project-card.html %} 
+
+{% endfor %} 
