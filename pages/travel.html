@@ -5,5 +5,11 @@ weight: 5
 permalink: /travel/
 ---
 
-{% include blog/search.html %}
-{% include blog/index.html %}
+<div class="card-group mt-2">
+
+
+    {% for post in site.articles %}
+        {% include blog/post-card.html %}
+    {% endfor %}
+
+</div>

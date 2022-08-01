@@ -54,7 +54,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-
+  travel:
+    output: true
+    permalink: /travel/:name
 
 ### Disqus ###
 disqus:
@@ -90,6 +92,11 @@ defaults:
       type: "posts"
     values:
       comments: true
+  - scope:
+      path: ""
+      type: "travel"
+    values:
+      layout: "page"
 
 ### Exclude from processing ###
 exclude:

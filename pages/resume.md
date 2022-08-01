@@ -6,3 +6,4 @@ weight: 2
 ---
 
 <embed src="https://suryapusapati.com/files/Surya_Pusapati_CV_2022.pdf" width="1000" height="1000" type="application/pdf">
+
