@@ -90,15 +90,9 @@ defaults:
       type: "posts"
     values:
       comments: true
-  - scope:
-      path: ""
-      type: "trail"
-    values:
-      layout: "posts"
 
 ### Exclude from processing ###
 exclude:
   - README.md
-  - CONTRIBUTING.md
-  - LICENSE
-  - "*.log"
+  - CNAME
+  - Gemfile
