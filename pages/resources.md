@@ -4,8 +4,9 @@ title: Links & Resources
 weight: 5
 permalink: /resources/
 ---
-
-## Awesome list:
+# **Links & Resources**
+<br><br>
+## Awesome GitHub lists:
 
 * [owainlewis/awesome-artificial-intelligence](https://github.com/owainlewis/awesome-artificial-intelligence) - A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.
 * [firmai/industry-machine-learning](https://github.com/firmai/industry-machine-learning) - A curated list of applied machine learning and data science notebooks and libraries across different industries (by @firmai)
