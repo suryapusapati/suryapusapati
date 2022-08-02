@@ -52,8 +52,9 @@ I am a data-driven engineer, which means I solve real-world problems using Stati
 ## Certifications
 
 ## Achievements
-  ### Awards
-  ### Publications
+
+### Awards
+### Publications
 
 ## Hobbies
 
