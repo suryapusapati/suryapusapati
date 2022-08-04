@@ -55,10 +55,10 @@ collections:
     permalink: /projects/:name
   resources:
     output: true
-    permalink: /resources/:name
+    permalink: /resources/:title
   lists:
     output: true
-    permalink: /list/:name
+    permalink: /:collection/:path
 
 
 ### Disqus ###

@@ -1,10 +1,13 @@
 ---
-title: 11 books to make your Data Science foundtions stronger
-tags: [Data Science, book]
-style: fill
-color: secondary
-description: pdfdrive.com hyperlinks on books mentioned in Medium.
+title: "11 Books to make your Data Science foundations stronger"
+collection: list
+type: "Handouts"
+venue: TA/RA Conference on Teaching, Learning and Research
+permalink: /list/11-books-to-make-your-data-science-foundations-stronger
+date: 2014-08-01
 ---
+
+<p class="text-center">Hello</p>
 
 List of books with links to pdfdrive.com:
 1. [Python Cookbook, 3rd Edition](https://www.pdfdrive.com/python-cookbook-3rd-edition-recipes-for-mastering-python-3-e166780384.html)
