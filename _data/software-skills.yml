@@ -1,0 +1,23 @@
+- name: MatLab
+  percentage: 70
+  color: #secondary
+
+- name: Tableau
+  percentage: 40
+  color:
+  
+- name: Microsoft Excel
+  percentage: 90
+  color: #danger
+  
+- name: Microsoft Power BI
+  percentage: 40
+  color: #danger
+
+- name: AutoCAD
+  percentage: 70
+  color:
+
+- name: OMNeT++
+  percentage: 80
+  color: #danger
