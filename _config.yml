@@ -53,6 +53,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
+  teaching:
+    output: true
+    permalink: /:collection/:path/
 
 
 ### Disqus ###
@@ -79,16 +82,25 @@ buymeacoffee:
 
 ### Defaults for collections ###
 defaults:
+  # _projects
   - scope:
       path: ""
       type: "projects"
     values:
       layout: "page"
+  # _posts
   - scope:
       path: ""
       type: "posts"
     values:
       comments: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: "posts"
+
 
 ### Exclude from processing ###
 exclude:

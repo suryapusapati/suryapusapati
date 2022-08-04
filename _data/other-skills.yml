@@ -2,7 +2,7 @@
   percentage: 85
   color: #info
 
-- name: Ardunio
+- name: Arduino IDE
   percentage: 70
   color: #info
 
