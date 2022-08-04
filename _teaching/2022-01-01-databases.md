@@ -2,6 +2,7 @@
 title: "An Introduction to Relational Databases"
 tags: [tag1, tag2]
 style: fill
+color: primary
 description: This is a trail on new page.
 ---
 
