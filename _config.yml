@@ -56,6 +56,9 @@ collections:
   resources:
     output: true
     permalink: /resources/:name
+  lists:
+    output: true
+    permalink: /list/:name
 
 
 ### Disqus ###
@@ -98,6 +101,12 @@ defaults:
   - scope:
       path: ""
       type: "resources"
+    values:
+      layout: "page"
+  # _lists
+  - scope:
+      path: ""
+      type: "lists"
     values:
       layout: "page"
 

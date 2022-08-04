@@ -11,16 +11,16 @@ Hi I am **{{ site.author.name }}** :wave:,<br>
 I am a data-driven engineer, which means I solve real-world problems using Statistical modelling and Machine learning techniques.
 
 <div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Software Skills" source=site.data.software-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
+{% include about/skills.html title="Programming Skills" source=site.about.programming-skills %}
+{% include about/skills.html title="Software Skills" source=site.about.software-skills %}
+{% include about/skills.html title="Other Skills" source=site.about.other-skills %}
 </div>
 
 ## Experience
 <div class="row">
 <div class="col mt-4">
   <div class="timeline-body bg-themed">
-    {% for item in site.data.exp-timeline %}
+    {% for item in site.about.exp-timeline %}
       <div class="timeline-item">
         <div class="content">
           <h2>{{ item.title }}</h2>
@@ -37,7 +37,7 @@ I am a data-driven engineer, which means I solve real-world problems using Stati
 <div class="row">
 <div class="col mt-4">
   <div class="timeline-body bg-themed">
-    {% for item in site.data.edu-timeline %}
+    {% for item in site.about.edu-timeline %}
       <div class="timeline-item">
         <div class="content">
           <h2>{{ item.title }}</h2>
