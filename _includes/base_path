@@ -1,0 +1,5 @@
+{% if site.url %}
+  {% assign base_path = https://suryapusapati.com/ | append: site.baseurl %}
+{% else %}
+  {% assign base_path = site.github.url %}
+{% endif %}
