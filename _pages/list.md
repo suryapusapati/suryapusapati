@@ -6,6 +6,6 @@ permalink: /list/
 ---
 # **Links & Resources**
 
-{% for post in site.posts reversed %}
-  {% include archive-single.html %}
+{% for post in site.lists reversed %}
+  {% include lists/index.html %}
 {% endfor %}
