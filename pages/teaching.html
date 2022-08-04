@@ -5,8 +5,5 @@ weight: 7
 permalink: /teaching/
 ---
 
-{% include base_path %}
-
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+{% include teaching/search.html %}
+{% include teaching/index.html %}
