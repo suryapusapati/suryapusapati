@@ -55,9 +55,7 @@ collections:
     permalink: /projects/:name
   teaching:
     output: true
-    permalink: /teaching/:name/
-  files:
-    output: true
+    permalink: /teaching/:name
 
 
 ### Disqus ###
