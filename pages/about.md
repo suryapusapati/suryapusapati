@@ -52,17 +52,17 @@ I am a data-driven engineer, which means I solve real-world problems using Stati
 
 ## Certifications
 
-Course Introduction to CNC Technology by SIEMANS and APSSDC - *May 2017 - Jul 2017*
+* Course Introduction to CNC Technology by SIEMANS and APSSDC - *May 2017 - Jul 2017*
 
 ## Achievements
 
 ### Awards
 
 * UR Graduate Scholarship - *Jul 2020*
-* Won 2nd prize in competition Sumo Fight Conducted at MECHATRONICS-17 - *Nov 2017*
-* Won 1st prize in competitions Pick ‘N’ Place and Soccer League Robotica at Ekathra-17 - *Mar 2017*
-* Won 2nd prize in competitions Drag race and Mozobien Conducted at Ekathra-17 - *Mar 2017*
-* Won 1st prize in competition Robotrix at VIDHYUTRA-2k17 - *Feb 2017*
+* 2nd prize in competition Sumo Fight organised by MECHATRONICS-17 - *Nov 2017*
+* 1st prize in competitions Pick ‘N’ Place and Soccer League Robotica at Ekathra-17 - *Mar 2017*
+* 2nd prize in competitions Drag race and Mozobien Conducted at Ekathra-17 - *Mar 2017*
+* 1st prize in competition Robotrix at VIDHYUTRA-2k17 - *Feb 2017*
 
 ### Participation
 
@@ -85,5 +85,4 @@ Course Introduction to CNC Technology by SIEMANS and APSSDC - *May 2017 - Jul 20
 ## Hobbies
 
 * Micro-controller programming.
-* 
 
