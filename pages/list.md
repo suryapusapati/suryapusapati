@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Links & Resources
+title: List
 weight: 5
-permalink: /resources/
+permalink: /list/
 ---
 # **Links & Resources**
 <br><br>

@@ -53,9 +53,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-  teaching:
+  resources:
     output: true
-    permalink: /teaching/:name
+    permalink: /resources/:name
 
 
 ### Disqus ###
@@ -94,10 +94,10 @@ defaults:
       type: "posts"
     values:
       comments: true
-  # _teaching
+  # _resources
   - scope:
       path: ""
-      type: "teaching"
+      type: "resources"
     values:
       layout: "page"
 
