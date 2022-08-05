@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Videos
-weight: 6
+weight: 5
 permalink: /videos/
 ---
 
