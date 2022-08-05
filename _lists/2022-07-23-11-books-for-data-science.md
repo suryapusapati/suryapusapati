@@ -1,8 +1,7 @@
 ---
 title: "11 Books to make your Data Science foundations stronger"
-collection: lists
-permalink: /list/11-books-to-make-your-data-science-foundations-stronger
 date: 2014-08-01
+description: Hello Hello Hello Hello Hello Hello Hello.
 ---
 
 <p class="text-center">Hello</p>

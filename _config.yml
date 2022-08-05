@@ -58,7 +58,7 @@ collections:
     permalink: /resources/:title
   lists:
     output: true
-    permalink: /:collection/:title
+    permalink: /list/:title
 
 
 ### Disqus ###
