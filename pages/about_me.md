@@ -16,13 +16,10 @@ I am a data-driven engineer, which means I solve real-world problems using Stati
 {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
 </div>
 
-<div class="row">
-{% include about/timeline.html title="Experience" source=site.data.exp-timeline %}
-</div>
 
-<div class="row">
+{% include about/timeline.html title="Experience" source=site.data.exp-timeline %}
+
 {% include about/timeline.html title="Education" source=site.data.edu-timeline %}
-</div>
 
 ## Certifications
 

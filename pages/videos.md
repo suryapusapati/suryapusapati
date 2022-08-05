@@ -4,15 +4,9 @@ title: Videos
 weight: 6
 permalink: /videos/
 ---
-<br>
-</br>
-<p align="center">
-    <iframe width="560" height="315" frameborder="0" 
-        src="https://www.youtube.com/embed/9KvAmZfQuHU"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-    </iframe>
-</p>
-<center>02 Mar 2018</center>
+
+{% include video.html yt-id="9KvAmZfQuHU" date="02 Mar 2018" %}
+
 
 <br>
 </br>
