@@ -6,6 +6,7 @@ color: primary
 description: List of websites and online resorces to learn SQL for free.
 # external_url: 
 ---
+{% include elements/figure.html image="https://bpng.subpng.com/dy/39e73dccc94f6a68290f4ea4519be469/L0KzQYq3VMA1N6p1j5H0aYP2gLBuTfNwdaF6jNd7LXnmf7B6TgNydF5oh995dYTogn7tifxmNaF0iuZqYnzoPbBslQdwepwyi9H2ZT3ldcT7TgBzaZR5gdVucz3pf8O0gB9lcZ9sRdN3ZD3zgrFukvFudZpzf58AY3G5cYS5WfVmbGE8SJC7N0S5Roa8VME2PWU5SqYBMUe8R4m5TwBvbz==/kisspng-computer-icons-sql-computer-file-portable-network-some-best-practices-for-coding-and-programming-5ca6a329eed070.2746655415544246179782.png" caption="SQL logo courtesy of subpng.com" %}
 <br>
 To date, SQL remains one of the most requested skills in job listings. Structured Query Language (SQL) remains one of the important skills for all data-related roles. Besides the advances and uptake in NoSQL databases, SQL still stays consistent in extracting data out to filter and roll up data before bringing it into another toll is especially helpful when working with large datasets. Regarding the framework, MySQL, PostgreSQL, and MS SQL Server are well-known SQL database management systems. Here are useful resources to learn and practice SQL for free:
 <br>
