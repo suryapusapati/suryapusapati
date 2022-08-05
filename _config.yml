@@ -102,13 +102,13 @@ defaults:
       path: ""
       type: "resources"
     values:
-      layout: "page"
+      layout: "post"
   # _lists
   - scope:
       path: ""
       type: "lists"
     values:
-      layout: "page"
+      layout: "post"
 
 
 ### Exclude from processing ###
