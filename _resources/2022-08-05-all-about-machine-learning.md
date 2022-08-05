@@ -1,5 +1,5 @@
 ---
-title: "All about MAchine Learning"
+title: "All about Machine Learning"
 tags:
 style: fill
 color: info
@@ -148,3 +148,4 @@ Unstructured Modelling
 * Review documents I have for any missing topics.
 * Improve navigation with nested pages.
 * Add hyperlinks, draw.io, shields.io.
+* Help me improve the post.
