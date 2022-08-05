@@ -1,10 +1,11 @@
 ---
-title: Hackerrank - 10 Days of Statistics
-tags: [Data Science, Statistics, Python, Scratch]
-style: border
-color: primary
-description: Solutions of coding questions in Hackerrank challenge solved using python.
+title: "Hackerrank - 10 Days of Statistics"
+collection: lists
+permalink: /list/10-days-of-statistics
+date: 2022-08-01
 ---
+
+<p class="text-center">Hello</p>
 
 <p class="text-center">
 {% include elements/button.html link="https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank" text="GitHub" %}

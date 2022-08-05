@@ -1,8 +1,6 @@
 ---
 title: "11 Books to make your Data Science foundations stronger"
-collection: list
-type: "Handouts"
-venue: TA/RA Conference on Teaching, Learning and Research
+collection: lists
 permalink: /list/11-books-to-make-your-data-science-foundations-stronger
 date: 2014-08-01
 ---
