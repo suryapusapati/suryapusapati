@@ -1,8 +1,8 @@
 ---
 title: "Learn SQL for free"
 tags:
-style: border
-color: primary
+style: fill
+color: success
 description: List of websites and online resorces to learn SQL for free.
 # external_url: 
 ---
@@ -24,7 +24,7 @@ mode.com, https://mode.com/sql-tutorial/
 sqlbolt.com, https://sqlbolt.com/
 sqlteaching.com, https://www.sqlteaching.com/
 sqlzoo.net, https://sqlzoo.net/wiki/SQL_Tutorial
-w3schools.com, https://www.w3schools.com/sql/)
+w3schools.com, https://www.w3schools.com/sql/
 {% endcapture %}
 {% include elements/list.html title="Websites with Tutorials and Practice Sections" %}
 <br>
@@ -57,7 +57,7 @@ Udemy: The Complete SQL Bootcamp, https://www.udemy.com/course/the-complete-sql-
 5 Advanced SQL Concepts You Should Know in 2022, https://medium.com/towards-data-science/5-advanced-sql-concepts-you-should-know-in-2022-b50efe6c99
 6 SQL Queries Every Data Engineer Should Be Aware of, https://betterprogramming.pub/6-sql-queries-every-data-engineer-should-be-aware-of-2d0a2cc5986e
 10 Quick SQL Tips After Writing Daily in SQL for 3 Years, https://towardsdatascience.com/10-quick-sql-tips-after-writing-daily-in-sql-for-3-years-37bdba0637d0
-From Basic to Intermediate SQL in 10 Minutes, https://medium.com/analytics-vidhya/from-basic-to-intermediate-sql-in-10-minutes-42b960ed6f9e0
+From Basic to Intermediate SQL in 10 Minutes, https://medium.com/analytics-vidhya/from-basic-to-intermediate-sql-in-10-minutes-42b960ed6f9e
 Intermediate SQL for Everyone, https://towardsdatascience.com/intermediate-sql-for-everyone-fe35c541147a
 Top 50 and Database Phone Interview Questions Answers, https://javarevisited.blogspot.com/2021/05/sql-and-database-phone-interview-questions.html#axzz7aOxmUGA9
 {% endcapture %}
