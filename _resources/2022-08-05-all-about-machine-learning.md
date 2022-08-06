@@ -149,3 +149,7 @@ Unstructured Modelling
 * Improve navigation with nested pages.
 * Add hyperlinks, draw.io, shields.io.
 * Help me improve the post.
+
+## If I missed out something, feel free to rise an [issue](https://github.com/suryapusapati/suryapusapati/issues) in GitHub.
+
+Ⓒ Surya Pusapati 2022
