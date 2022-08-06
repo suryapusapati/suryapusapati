@@ -7,7 +7,7 @@ description: Solutions of coding questions in Hackerrank challenge solved using 
 ---
 
 <p class="text-center">
-<img src="https://www.vaughn.edu/wp-content/uploads/2020/03/Math-Equations-on-Chalkboard.jpg">
+{% include elements/figure.html image="https://www.vaughn.edu/wp-content/uploads/2020/03/Math-Equations-on-Chalkboard.jpg" caption="Image courtesy of vaughn.edu" %}
 <br>
 {% include elements/button.html link="https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank" text="GitHub" %}
 {% include elements/button.html link="https://www.hackerrank.com/domains/tutorials/10-days-of-statistics" text="HackerRank" %}
@@ -646,4 +646,3 @@ liner(X, Y, 80)
 If you encounter any error, feel free to post your [issue](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/issues) in GitHub. 
 
 Ⓒ Surya Pusapati 2022
-<br><a href="https://www.vaughn.edu/blog/vaughn-professor-celebrates-mathematics-and-statistics-awareness-month/">Post image</a>
