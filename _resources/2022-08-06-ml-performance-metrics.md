@@ -10,8 +10,10 @@ description: List of Performance Metrics in Machine Learning.
 # List of Performance Metrics
 For any Machine Learning model, we need metrics to rank the model in terms of performance or to compare it with other trained ML methods. Every ML task can be divided into either *Regression* or *Classification* problem. From my literature, I have created a comprehensive list of metrics I came across.
 
-## Regression or Time-series problem:
+## Regression or time-series problem:
+
 > *NOTE: Error is sometimes also referred to as loss.*
+
 * Mean Error (ME)
 	* Mean Squared Error (MSE)
 	* Root Mean Squared Error (RMSE)
@@ -50,6 +52,6 @@ For any Machine Learning model, we need metrics to rank the model in terms of pe
 * Confusion Matrix
 * Classification Report
 
-## If I missed out something, feel free to rise an [issue](https://github.com/suryapusapati/suryapusapati/issues) in GitHub. Hereon I will keep on improving the post with new metrics.
+**If I missed out something, feel free to rise an [issue](https://github.com/suryapusapati/suryapusapati/issues) in GitHub. Hereon I will keep on improving the post with new metrics.**
 
 Ⓒ Surya Pusapati 2022
