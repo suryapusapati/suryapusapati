@@ -7,11 +7,12 @@ description: Solutions of coding questions in Hackerrank challenge solved using 
 ---
 
 <p class="text-center">
-<img src="https://www.vaughn.edu/wp-content/uploads/2020/03/Math-Equations-on-Chalkboard.jpg">
+{% include elements/figure.html image="https://www.vaughn.edu/wp-content/uploads/2020/03/Math-Equations-on-Chalkboard.jpg" caption="Image courtesy of vaughn.edu" %}
 <br>
 {% include elements/button.html link="https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank" text="GitHub" %}
 {% include elements/button.html link="https://www.hackerrank.com/domains/tutorials/10-days-of-statistics" text="HackerRank" %}
-<br>
+</p>
+<p align="center">
 <img src="https://img.shields.io/badge/Made%20with-Markdown-1f45f.svg">
 <img src="https://img.shields.io/badge/Made%20with-Python-blue?&logo=Python">
 <img src="https://img.shields.io/badge/Made%20with-MathJax-orange.svg">
