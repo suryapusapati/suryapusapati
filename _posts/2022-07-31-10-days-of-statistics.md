@@ -7,7 +7,7 @@ description: Solutions of coding questions in Hackerrank challenge solved using 
 ---
 
 <p class="text-center">
-{% include elements/figure.html image="https://www.vaughn.edu/wp-content/uploads/2020/03/Math-Equations-on-Chalkboard.jpg" caption="Image courtesy of vaughn.edu" %}
+<img src="https://www.vaughn.edu/wp-content/uploads/2020/03/Math-Equations-on-Chalkboard.jpg">
 <br>
 {% include elements/button.html link="https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank" text="GitHub" %}
 {% include elements/button.html link="https://www.hackerrank.com/domains/tutorials/10-days-of-statistics" text="HackerRank" %}
