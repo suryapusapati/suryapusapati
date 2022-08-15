@@ -57,3 +57,8 @@ I am a data-driven engineer, which means I solve real-world problems using Stati
 
 * Micro-controller programming.
 
+## Currently living in
+
+<p align="center">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81281.79088763047!2d-104.70544851328468!3d50.458682521031676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.      1!3m3!1m2!1s0x531c1e40fba53deb%3A0x354a3296b77b54b1!2sRegina%2C%20SK!5e0!3m2!1sen!2sca!4v1659977166960!5m2!1sen!2sca" width="560" height="315" style="border:0;" allowfullscreen="" loading="lazy"  referrerpolicy="no-referrer-when-downgrade"></iframe>
+</p>
