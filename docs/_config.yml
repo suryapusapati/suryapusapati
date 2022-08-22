@@ -1,0 +1,110 @@
+### Site Settings ###
+title               : Surya Pusapati
+description         : Research Student of Industrial Systems Engineering at the University of Regina
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : suryapusapati/suryapusapati.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : YoussefRaafatNasry/portfolYOU
+open_new_tab        : true                            # Opens external URLs in new tab (works for posts, projects and navbar only)
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+
+
+### Author Info ###
+author:
+  name              : Surya Pusapati
+  image             : /files/profile-pic.png
+# behance           : your_username
+# dribbble          : your_username
+  email             : contact@suryapusapati.com
+# facebook          : your_username
+  github            : suryapusapati
+# gitlab            : your_username
+  instagram         : suryapusapati
+  kaggle            : surya39
+  linkedin          : suryanarayanaraju-pusapati-30517a15a
+# medium            : suryapusapati
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : 18959493
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+# twitter           : SuryaPusapati39
+# vimeo             : your_username
+  youtube           : channel/UCJhMTQilHIWgVTcOCtCHmGQ
+# keybase           : your_username
+# hackerrank        : SuryaPusapati
+
+### Posts ###
+permalink: /blog/:title
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+  resources:
+    output: true
+    permalink: /resources/:title
+
+
+### Disqus ###
+disqus:
+  shortname: suryapusapati.disqus.com                     # Your website Shortname on disqus
+
+
+### Analytics ###
+analytics:
+  enabled: false                                        # Set true to enable analytics
+  google:
+    tracking_id: your-google-tracking-id
+
+
+### Buy me a coffee ###
+# See https://www.buymeacoffee.com/
+buymeacoffee:
+  enabled: false
+  username: your_username
+  color: "#007bff"
+  message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
+  description: "Support me on Buy me a coffee!"
+
+
+### Defaults for collections ###
+defaults:
+  # _projects
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  # _posts
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true
+  # _resources
+  - scope:
+      path: ""
+      type: "resources"
+    values:
+      layout: "post"
+
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CNAME
+  - _resources
+  - pages/resources.html
+  - Gemfile
