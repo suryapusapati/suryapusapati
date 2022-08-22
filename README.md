@@ -8,7 +8,7 @@
 - 🤔 I'm looking for help connecting with data professionals in Canada.
 - 💬 Ask me about Data Science, Robotics, Mechatronics, and General Engineering.
 - 📫 How to reach me: [![email](https://img.shields.io/badge/Email:_contact@suryapusapati.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:contact@suryapusapati.com)
-- ⚡ Pronouns: easy, call me Surya.
+- ⚡ Pronouns: He/Him
 - 😄 Fun fact: Canadians are ready to 🚀 fly to Mars because Canada's lowest recorded temperature is as cold as Mars.
 <br><br>
 
