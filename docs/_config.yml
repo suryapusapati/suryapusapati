@@ -1,6 +1,6 @@
 ### Site Settings ###
 title               : Surya Pusapati
-description         : Research Student of Industrial Systems Engineering at the University of Regina
+description         : Graduate Research Student of the University of Regina
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : suryapusapati/suryapusapati.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
@@ -106,5 +106,6 @@ exclude:
   - README.md
   - CNAME
   - _resources
+  - draft
   - pages/resources.html
   - Gemfile

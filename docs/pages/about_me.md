@@ -8,53 +8,58 @@ weight: 1
 # **About Me**
 
 Hi I am **{{ site.author.name }}** :wave:,<br>
-I am a data-driven engineer, which means I solve real-world problems using Statistical modelling and Machine learning techniques.
+I am a data-driven engineer, which means I solve real-world problems using Statistics, Engineering and Data Science techniques.
 
 <div class="row">
     {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
     {% include about/skills.html title="Software Skills" source=site.data.software-skills %}
     {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
-    {% include elements/figure.html image="/files/skills-legends.drawio.svg" caption="Skills Experience Legend" %}
+    <!--{% include elements/figure.html image="/files/skills-legends.drawio.svg" caption="Skills Experience Legend" %}-->
 </div>
 
 {% include about/timeline.html title="Experience" source=site.data.exp-timeline %}
 {% include about/timeline.html title="Education" source=site.data.edu-timeline %}
 
+## Interests
+* **Data Science:** Data Analysis, Machine Learning, AI
+* **Robotics:** Rover, Radio-controller, Automation, IoT
+* **Automotive:** Power Train, Design and Operation, Autonomous Driving
+<br><br>
+
 ## Certifications
-* Course Introduction to CNC Technology by SIEMANS and APSSDC - *May 2017 - Jul 2017*
+* Full Stack Data Science Bootcamp, iNeuron.ai, *Ongoing*
+* Statistics for Data Science and Business Analysis, Udemy, *Sep 2020*
+* Python for Data Science and Machine Learning Bootcamp, Udemy, *Jul 2020*
 <br><br>
 
-## Achievements
+## Publications
+Pusapati, S., Selim, B., Nie, Y., Lin, H., & Peng, W. (2022). **Simulation of NR-V2X in a 5G Environment using OMNeT++.** Presented at *2022 IEEE Future Networks World Forum (FNWF'22), Montréal, Canada.*<br><br>
+Pusapati, S., Gokanakonda, S., Mallipudi, S. K., & Kankatala S. K. (2019). **Design and fabrication of a radio-controlled mini rover with audio-visual sensors, suspension and four-wheel steering.** *International Journal of Advance Research, Ideas and Innovations in Technology,* 5(3).
 <br><br>
 
-### Awards
-* UR Graduate Scholarship - *Jul 2020*
-* 2nd prize in competition Sumo Fight organised by MECHATRONICS-17 - *Nov 2017*
-* 1st prize in competitions Pick ‘N’ Place and Soccer League Robotica at Ekathra-17 - *Mar 2017*
-* 2nd prize in competitions Drag race and Mozobien Conducted at Ekathra-17 - *Mar 2017*
-* 1st prize in competition Robotrix at VIDHYUTRA-2k17 - *Feb 2017*
+## Talks
+* Presented my thesis work in Graduate Conference held at my university, *Oct 2022*
+* Presented my conference paper in 2022 IEEE Future Networks World Forum at Montréal, *Oct 2022*
+* Guest lecture on “Introduction to Python” for Advanced Numerical Methods graduate course, *Sep 2022*
 <br><br>
 
-### Participation
-* Escalade Mains organised by Techniche at IIT Guwahati - *Sep 2019*
-* SAE BAJA 2018 organised by SAEINDIA at Chitkara University - *Jul 2018*
-* Robowars organised by SHAASTRA 2017 at IIT Madras - *Jan 2017*
-* MECHATRONICS-16 Conducted by Rotary Club - *Sep 2016*
-* Extreme Racing by VIVAAN 2k16 - *Mar 2016*
+## Awards
+* FGSR Graduate Student Online Conference & Travel Award, *Nov 2022*
+* URGSA Travel Award, *Nov 2022*
+* UR Graduate Scholarship, *Aug 2020*
+* Won several Robotic competitions, *2017*
 <br><br>
 
-### Publications
-* Pusapati Suryanarayana Raju, Dr. Subash Gokanakonda, Mallipudi Sarad Kumar, Kankatala Sai Kumar. **"Design and fabrication of a radio-controlled mini rover with audio-visual sensors, suspension and four-wheel steering."** *International Journal of Advance Research, Ideas and Innovations in Technology* 5.3 (2019). www.IJARIIT.com.
+## Volunteering
+* International Peer Advisor, UR International, University of Regina, Regina, *Spring/Summer 2021*
+* Student Volunteer, NSS, India, *2016 - 2018*
+* Student Volunteer, RC-GVP, India, *2016 - 2018*
 <br><br>
 
-## Volunteership
-* International Peer Advisor, UR International - *Spring/Summer 2021*
-* Volunteer, National Service Scheme (NSS) - *2016-2018*
-* Volunteer, Rotaract Club - Gayatri Vidya Parishad (RC-GVP) - *2016-2018*
-<br><br>
-
-## Hobbies
-* Micro-controller programming.
+## Participations
+* **Escalade Mains,** Techniche, IIT Guwahati, India, *Sep 2019*
+* **SAE BAJA 2018,** SAEINDIA, Chitkara University, India, *Jul 2018*
+* **Robowars,** SHAASTRA 2017, IIT Madras, India, *Jan 2017*
 <br><br>
 
 ## Currently living in
