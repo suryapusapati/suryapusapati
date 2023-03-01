@@ -27,31 +27,34 @@ I am a data-driven engineer, which means I solve real-world problems using Stati
 <br><br>
 
 ## Certifications
-* Full Stack Data Science Bootcamp, iNeuron.ai, *Ongoing*
-* Statistics for Data Science and Business Analysis, Udemy, *Sep 2020*
+* Full Stack Data Science Bootcamp, iNeuron.ai, *Inprogress*
+* Master SQL for Data Science, LinkedIn Learning, *Jun 2022*
+* Machine Learning A-Z: Python in Data Science, Udemy, *Jan 2021*
+* Statistics for Data Science and Business Analysis, Udemy, *Aug 2020*
 * Python for Data Science and Machine Learning Bootcamp, Udemy, *Jul 2020*
 <br><br>
 
 ## Publications
-Pusapati, S., Selim, B., Nie, Y., Lin, H., & Peng, W. (2022). **Simulation of NR-V2X in a 5G Environment using OMNeT++.** Presented at *2022 IEEE Future Networks World Forum (FNWF'22), Montréal, Canada.*<br><br>
-Pusapati, S., Gokanakonda, S., Mallipudi, S. K., & Kankatala S. K. (2019). **Design and fabrication of a radio-controlled mini rover with audio-visual sensors, suspension and four-wheel steering.** *International Journal of Advance Research, Ideas and Innovations in Technology,* 5(3).
+* Pusapati, S., Selim, B., Nie, Y., Lin, H., & Peng, W. (2022). **Simulation of NR-V2X in a 5G Environment using OMNeT++.** Presented at *2022 IEEE Future Networks World Forum (FNWF'22), Montréal, Canada.*<br><br>
+* Pusapati, S., Gokanakonda, S., Mallipudi, S. K., & Kankatala S. K. (2019). **Design and fabrication of a radio-controlled mini rover with audio-visual sensors, suspension and four-wheel steering.** *International Journal of Advance Research, Ideas and Innovations in Technology,* 5(3).
 <br><br>
 
 ## Talks
-* Presented my thesis work in Graduate Conference held at my university, *Oct 2022*
-* Presented my conference paper in 2022 IEEE Future Networks World Forum at Montréal, *Oct 2022*
-* Guest lecture on “Introduction to Python” for Advanced Numerical Methods graduate course, *Sep 2022*
+* Presented master's thesis at the Graduate Conference held at the University, *Oct 2022*
+* Presented a conference paper at the 2022 IEEE Future Networks World Forum at Montréal, *Oct 2022*
+* Lecture on “Introduction to Python” for a graduate course at the University, *Sep 2022*
 <br><br>
 
 ## Awards
 * FGSR Graduate Student Online Conference & Travel Award, *Nov 2022*
 * URGSA Travel Award, *Nov 2022*
 * UR Graduate Scholarship, *Aug 2020*
+* MITACS Accelerator Program, *Oct 2020 – Nov 2022*
 * Won several Robotic competitions, *2017*
 <br><br>
 
-## Volunteering
-* International Peer Advisor, UR International, University of Regina, Regina, *Spring/Summer 2021*
+## Volunteership
+* International Peer Advisor, University of Regina, Regina, *May 2021 - Aug 2021*
 * Student Volunteer, NSS, India, *2016 - 2018*
 * Student Volunteer, RC-GVP, India, *2016 - 2018*
 <br><br>
@@ -62,7 +65,7 @@ Pusapati, S., Gokanakonda, S., Mallipudi, S. K., & Kankatala S. K. (2019). **Des
 * **Robowars,** SHAASTRA 2017, IIT Madras, India, *Jan 2017*
 <br><br>
 
-## Currently living in
+## Current Location
 <div align="center">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d918256.1393133112!2d-105.47301397548941!3d50.527693240340554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x531c1e40fba53deb%3A0x354a3296b77b54b1!2sRegina%2C%20SK!5e0!3m2!1sen!2sca!4v1661024294661!5m2!1sen!2sca" width="850" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>

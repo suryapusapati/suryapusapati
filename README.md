@@ -1,19 +1,19 @@
 
-#  Hi there 👋 
+#  Hi There 👋 
 
-- 🔮 Greetings in Telugu: నమస్కారం, నా పేరు పూసపాటి సూర్య నారాయణ రాజు.
-- 🔭 I'm currently researching on 5G network optimization using machine learning.
-- 🌱 I'm currently learning SQL, advanced Excel, Deep Learning and advanced Machine Learning in python. 
-- 👯 I'm looking to collaborate on data analysis-related packages in python.
+- 🔮 Greetings in Telugu: నమస్కారం, నా పేరు సూర్య పూసపాటి.
+- 🔭 I recently completed my thesis on optimizing a 5G network using Machine Learning.
+- 🌱 I'm improving my skills on SQL, MS Excel, Python for Machine Learning and Deep Learning. 
+- 👯 I'm open to collaborate on Data Science projects.
 - 🤔 I'm looking for help connecting with data professionals in Canada.
-- 💬 Ask me about Data Science, Robotics, Mechatronics, and General Engineering.
-- 📫 How to reach me: [![email](https://img.shields.io/badge/Email:_contact@suryapusapati.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:contact@suryapusapati.com)
-- ⚡ Pronouns: He/Him
-- 😄 Fun fact: Canadians are ready to 🚀 fly to Mars because Canada's lowest recorded temperature is as cold as Mars.
+- 💬 Ask me about Data Science, Robotics, Mechatronics, General Engineering and AI.
+- 📫 Reach me at: [![email](https://img.shields.io/badge/Email:_contact@suryapusapati.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:contact@suryapusapati.com)
+- ⚡ Pronouns: he, him, his
+- 😄 Fun fact: Canadians are fit to 🚀 fly to Mars because Canada's lowest recorded temperature is as cold as Mars.
 <br><br>
 
 ## 🌐 Socials
-[![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/suryapusapati) [![hackerrank](https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/SuryaPusapati) [![instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/suryapusapati) [![kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/surya39) [ ![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suryanarayanaraju-pusapati-30517a15a) [![medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@suryapusapati) [![twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/SuryaPusapati39) [![youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCJhMTQilHIWgVTcOCtCHmGQ) 
+[![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/suryapusapati) [![hackerrank](https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/SuryaPusapati)  [![kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/surya39) [ ![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suryanarayanaraju-pusapati-30517a15a) [![medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@suryapusapati) [![youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCJhMTQilHIWgVTcOCtCHmGQ) 
 <br>
 [![]()]()
 <!-- [![quora](https://img.shields.io/badge/Quora-%23B92B27.svg?&style=for-the-badge&logo=Quora&logoColor=white)]() [![facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)]() [![leetcode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)]() [![researchgate](https://img.shields.io/badge/Research_Gate-00CCBB.svg?&style=for-the-badge&logo=ResearchGate&logoColor=white)]() [![stack overflow](https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/18959493/surya-pusapati) [![](https://img.shields.io/badge/Blog%20Site-Surya%20Pusapati-dodgerblue)](https://suryapusapati.com/blog) 
