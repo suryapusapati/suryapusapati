@@ -31,6 +31,11 @@ gitlab:
   icon  : fab fa-gitlab
   color : fca326
 
+google_scholar:
+  url   : https://scholar.google.com/citations?user=
+  icon  : fab fa-google
+  color : fca326
+
 instagram:
   url   : https://www.instagram.com/
   icon  : fab fa-instagram

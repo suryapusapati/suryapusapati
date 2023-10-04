@@ -1,6 +1,6 @@
 ### Site Settings ###
 title               : Surya Pusapati
-description         : Graduate Student at the University of Regina
+description         : Engineering Assistant at SaskTel
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : suryapusapati/suryapusapati.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
@@ -22,7 +22,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Surya Pusapati
-  image             : /files/profile-pic.png
+  image             : /files/Profile_pic_aug_2023.jpg
 # behance           : your_username
 # dribbble          : your_username
   email             : contact@suryapusapati.com
@@ -30,9 +30,9 @@ author:
   github            : suryapusapati
 # gitlab            : your_username
 # instagram         : suryapusapati
-  kaggle            : surya39
+# kaggle            : surya39
   linkedin          : surya-pusapati-30517a15a
-  medium            : suryapusapati
+# medium            : suryapusapati
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : 18959493
@@ -40,9 +40,10 @@ author:
 # twitch            : your_username
 # twitter           : SuryaPusapati39
 # vimeo             : your_username
-  youtube           : channel/UCJhMTQilHIWgVTcOCtCHmGQ
+# youtube           : channel/UCJhMTQilHIWgVTcOCtCHmGQ
 # keybase           : your_username
 # hackerrank        : SuryaPusapati
+  google_scholar    : citations?user=SvhK4dEAAAAJ
 
 ### Posts ###
 permalink: /blog/:title
